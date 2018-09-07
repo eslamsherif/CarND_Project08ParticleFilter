@@ -21,7 +21,7 @@ using namespace std;
 
 /* Local defines */
 /* Number of particles used in the particle filter */
-#define PARTICLE_NUM (1000U)
+#define PARTICLE_NUM (100U)
 
 #define EPSI (0.001)
 
@@ -108,12 +108,12 @@ void ParticleFilter::dataAssociation(std::vector<LandmarkObs> predicted, std::ve
 
     for(unsigned int j=0; j < predicted.size(); j++)
     {
-      double distance = dist(observations[i].x, observations[i].y, predicted[i].x, predicted[i].y);
+      double distance = dist(observations[i].x, observations[i].y, predicted[j].x, predicted[j].y);
 
       if(min_dist > distance)
       {
         min_dist = distance;
-        idx = predicted[i].id;
+        idx = predicted[j].id;
       }
     }
 
@@ -126,10 +126,17 @@ static double calc_wght_mult_var_gaussian(const LandmarkObs &o, const LandmarkOb
   double x_std = std[X_INDEX];
   double y_std = std[Y_INDEX];
 
+  // cout << "x_std " << x_std << " y_std " << y_std << endl;
+
   double factor  = (2 * M_PI * x_std * y_std);
   double dx = o.x - m.x;
   double dy = o.y - m.y;
+  // cout << "factor " << factor << endl;
+  // cout << "ox " << o.x << " oy " << o.y << endl;
+  // cout << "mx " << m.x << " my " << m.y << endl;
+  // cout << "dx " << dx << " dy " << dy << endl;
   double exp_val = ( (dx * dx) / (2 * x_std * x_std ) ) + ( (dy * dy) / (2 * y_std * y_std) );
+  // cout << "exp_val " << exp_val << endl;
 
   return exp( -exp_val ) / factor;
 }
@@ -146,34 +153,36 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
     vector<LandmarkObs> TransObserv;
     /* 1) tranform the observation from vehicle coordinates to map coordinates */
-    for (unsigned int i=0; i < observations.size(); i++)
+    for (unsigned int j=0; j < observations.size(); j++)
     {
       LandmarkObs temp;
 
-      temp.id = observations[i].id;
-      temp.x  = particles[i].x + (cos(theta) * observations[i].x) - (sin(theta) * observations[i].y);
-      temp.y  = particles[i].y + (sin(theta) * observations[i].x) + (cos(theta) * observations[i].y);
+      temp.id = observations[j].id;
+      temp.x  = particles[i].x + (cos(theta) * observations[j].x) - (sin(theta) * observations[j].y);
+      temp.y  = particles[i].y + (sin(theta) * observations[j].x) + (cos(theta) * observations[j].y);
 
       TransObserv.push_back(temp);
     }
-    
+
     /* 3) find map landmarks that the sensor can sense from this particle pos */
     /* essentially search for all landmarks in a circle with radius equal to sensor range */
     vector<LandmarkObs> landMarksInRange;
-    for(unsigned int i=0; i < map_landmarks.landmark_list.size(); i++)
+    for(unsigned int j=0; j < map_landmarks.landmark_list.size(); j++)
     {
-      if( Range_Max_Dist >= dist(map_landmarks.landmark_list[i].x_f, map_landmarks.landmark_list[i].y_f, particles[i].x, particles[i].y) )
+      double delta_x = (map_landmarks.landmark_list[j].x_f - particles[i].x);
+      double delta_y = (map_landmarks.landmark_list[j].y_f - particles[i].y);
+      if( Range_Max_Dist >= ( (delta_x * delta_x) + (delta_y * delta_y) ) )
       {
         LandmarkObs temp;
 
-        temp.id = map_landmarks.landmark_list[i].id_i;
-        temp.x  = map_landmarks.landmark_list[i].x_f;
-        temp.y  = map_landmarks.landmark_list[i].y_f;
+        temp.id = map_landmarks.landmark_list[j].id_i;
+        temp.x  = map_landmarks.landmark_list[j].x_f;
+        temp.y  = map_landmarks.landmark_list[j].y_f;
 
         landMarksInRange.push_back(temp);
       }
     }
-    
+
     /* 4) associate the observations and the landmarks around the particle */
     /*    using the nearest neighbour concept introduced in the lessons.   */
     dataAssociation(landMarksInRange, TransObserv);
@@ -193,7 +202,19 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
         }
       }
 
-      particles[i].weight *= calc_wght_mult_var_gaussian(TransObserv[j], landMarksInRange[k], std_landmark);
+      /* I observed that all particles weights are 0 at all times. */
+      /* due to gaussian distribution 0 is some time obtained as a 0 value. specially if particle is close to a landmark */
+      /* I added the following condition to prevent this */
+      double new_weight = calc_wght_mult_var_gaussian(TransObserv[j], landMarksInRange[k], std_landmark);
+      // cout << "new_weight " << new_weight << endl;
+      if(new_weight > EPSI)
+      {
+        particles[i].weight *= new_weight;
+      }
+      else
+      {
+        particles[i].weight *= EPSI;
+      }
     }
   }
 }
@@ -208,6 +229,7 @@ void ParticleFilter::resample()
   for(int i=0; i < num_particles; i++)
   {
     weights.push_back(particles[i].weight);
+    // cout << "weight[" << i << "] " << particles[i].weight << endl;
   }
 
   /* similar to normal distribution but offer discrete steps instead of a continous one */
