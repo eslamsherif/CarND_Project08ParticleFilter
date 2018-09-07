@@ -200,10 +200,27 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
 void ParticleFilter::resample()
 {
-	// TODO: Resample particles with replacement with probability proportional to their weight. 
-	// NOTE: You may find std::discrete_distribution helpful here.
-	//   http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution
+  /* collect all particle weight in one vector, it is not efficient to duplicate */
+  /* I would prefer to use the weights vector directly during updateWeights func */
+  /* thus eliminating the weight member in particle struct, however the main     */
+  /* use the weight member during error calculation so i need to leave it.       */
+  weights.clear();
+  for(int i=0; i < num_particles; i++)
+  {
+    weights.push_back(particles[i].weight);
+  }
 
+  /* similar to normal distribution but offer discrete steps instead of a continous one */
+  discrete_distribution<int> dist(weights.begin(),weights.end());
+
+  vector<Particle> temp;
+  temp.resize(num_particles);
+
+  for (int i = 0; i < num_particles; ++i) {
+    temp[i] = particles[dist(gen)];
+    
+  }
+  particles = temp;
 }
 
 void ParticleFilter::SetAssociations(Particle& particle, const std::vector<int>& associations, 

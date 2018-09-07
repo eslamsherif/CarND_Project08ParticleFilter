@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/mnt/e/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/mnt/e/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build_shell")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/mnt/e/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build_Ubuntushell")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
