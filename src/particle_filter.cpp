@@ -126,17 +126,10 @@ static double calc_wght_mult_var_gaussian(const LandmarkObs &o, const LandmarkOb
   double x_std = std[X_INDEX];
   double y_std = std[Y_INDEX];
 
-  // cout << "x_std " << x_std << " y_std " << y_std << endl;
-
   double factor  = (2 * M_PI * x_std * y_std);
   double dx = o.x - m.x;
   double dy = o.y - m.y;
-  // cout << "factor " << factor << endl;
-  // cout << "ox " << o.x << " oy " << o.y << endl;
-  // cout << "mx " << m.x << " my " << m.y << endl;
-  // cout << "dx " << dx << " dy " << dy << endl;
   double exp_val = ( (dx * dx) / (2 * x_std * x_std ) ) + ( (dy * dy) / (2 * y_std * y_std) );
-  // cout << "exp_val " << exp_val << endl;
 
   return exp( -exp_val ) / factor;
 }
@@ -206,7 +199,6 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
       /* due to gaussian distribution 0 is some time obtained as a 0 value. specially if particle is close to a landmark */
       /* I added the following condition to prevent this */
       double new_weight = calc_wght_mult_var_gaussian(TransObserv[j], landMarksInRange[k], std_landmark);
-      // cout << "new_weight " << new_weight << endl;
       if(new_weight > EPSI)
       {
         particles[i].weight *= new_weight;
@@ -229,7 +221,6 @@ void ParticleFilter::resample()
   for(int i=0; i < num_particles; i++)
   {
     weights.push_back(particles[i].weight);
-    // cout << "weight[" << i << "] " << particles[i].weight << endl;
   }
 
   /* similar to normal distribution but offer discrete steps instead of a continous one */
