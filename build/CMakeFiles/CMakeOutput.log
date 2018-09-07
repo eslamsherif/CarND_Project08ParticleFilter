@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:08 PM.
+Build started 9/7/2018 2:25:10 PM.
 Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\3.12.0-rc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -39,7 +39,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:07.79
+Time Elapsed 00:00:12.37
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -58,7 +58,7 @@ The output was:
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:16 PM.
+Build started 9/7/2018 2:25:23 PM.
 Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\3.12.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -88,7 +88,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.69
+Time Elapsed 00:00:08.52
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -100,85 +100,85 @@ The CXX compiler identification is MSVC, found in "E:/Backup/SelfDrivingNanoDegr
 Determining if the C compiler works passed with the following output:
 Change Dir: E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_07d71.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_41500.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:20 PM.
-Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_07d71.vcxproj" on node 1 (default targets).
+Build started 9/7/2018 2:25:32 PM.
+Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_41500.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_07d71.dir\Debug\".
+  Creating directory "cmTC_41500.dir\Debug\".
   Creating directory "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_07d71.dir\Debug\cmTC_07d71.tlog\".
+  Creating directory "cmTC_41500.dir\Debug\cmTC_41500.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_07d71.dir\Debug\cmTC_07d71.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_41500.dir\Debug\cmTC_41500.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
   Using triplet "x86-windows" from "C:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07d71.dir\Debug\\" /Fd"cmTC_07d71.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41500.dir\Debug\\" /Fd"cmTC_41500.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26431 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07d71.dir\Debug\\" /Fd"cmTC_07d71.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41500.dir\Debug\\" /Fd"cmTC_41500.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCCompiler.c
   testCCompiler.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_07d71.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_07d71.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_07d71.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_07d71.dir\Debug\testCCompiler.obj
-  cmTC_07d71.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_07d71.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_41500.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_41500.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_41500.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_41500.dir\Debug\testCCompiler.obj
+  cmTC_41500.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_41500.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_07d71.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_07d71.dir\Debug\cmTC_07d71.tlog\cmTC_07d71.write.1u.tlog" "cmTC_07d71.dir\Debug\vcpkg.applocal.log"
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_41500.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_41500.dir\Debug\cmTC_41500.tlog\cmTC_41500.write.1u.tlog" "cmTC_41500.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_07d71.dir\Debug\cmTC_07d71.tlog\unsuccessfulbuild".
-  Touching "cmTC_07d71.dir\Debug\cmTC_07d71.tlog\cmTC_07d71.lastbuildstate".
-Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_07d71.vcxproj" (default targets).
+  Deleting file "cmTC_41500.dir\Debug\cmTC_41500.tlog\unsuccessfulbuild".
+  Touching "cmTC_41500.dir\Debug\cmTC_41500.tlog\cmTC_41500.lastbuildstate".
+Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_41500.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.87
+Time Elapsed 00:00:06.55
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b6675.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_402dd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:23 PM.
-Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_b6675.vcxproj" on node 1 (default targets).
+Build started 9/7/2018 2:25:39 PM.
+Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_402dd.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_b6675.dir\Debug\".
+  Creating directory "cmTC_402dd.dir\Debug\".
   Creating directory "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_b6675.dir\Debug\cmTC_b6675.tlog\".
+  Creating directory "cmTC_402dd.dir\Debug\cmTC_402dd.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_b6675.dir\Debug\cmTC_b6675.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_402dd.dir\Debug\cmTC_402dd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
   Using triplet "x86-windows" from "C:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6675.dir\Debug\\" /Fd"cmTC_b6675.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_402dd.dir\Debug\\" /Fd"cmTC_402dd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26431 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6675.dir\Debug\\" /Fd"cmTC_b6675.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_402dd.dir\Debug\\" /Fd"cmTC_402dd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   CMakeCCompilerABI.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_b6675.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_b6675.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_b6675.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b6675.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_b6675.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_b6675.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_402dd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_402dd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_402dd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_402dd.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_402dd.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_402dd.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_b6675.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_b6675.dir\Debug\cmTC_b6675.tlog\cmTC_b6675.write.1u.tlog" "cmTC_b6675.dir\Debug\vcpkg.applocal.log"
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_402dd.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_402dd.dir\Debug\cmTC_402dd.tlog\cmTC_402dd.write.1u.tlog" "cmTC_402dd.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_b6675.dir\Debug\cmTC_b6675.tlog\unsuccessfulbuild".
-  Touching "cmTC_b6675.dir\Debug\cmTC_b6675.tlog\cmTC_b6675.lastbuildstate".
-Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_b6675.vcxproj" (default targets).
+  Deleting file "cmTC_402dd.dir\Debug\cmTC_402dd.tlog\unsuccessfulbuild".
+  Touching "cmTC_402dd.dir\Debug\cmTC_402dd.tlog\cmTC_402dd.lastbuildstate".
+Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_402dd.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.64
+Time Elapsed 00:00:06.12
 
 
 
@@ -186,43 +186,43 @@ Time Elapsed 00:00:02.64
 Detecting C [] compiler features compiled with the following output:
 Change Dir: E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_28955.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8a77d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:26 PM.
-Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_28955.vcxproj" on node 1 (default targets).
+Build started 9/7/2018 2:25:46 PM.
+Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_8a77d.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_28955.dir\Debug\".
+  Creating directory "cmTC_8a77d.dir\Debug\".
   Creating directory "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_28955.dir\Debug\cmTC_28955.tlog\".
+  Creating directory "cmTC_8a77d.dir\Debug\cmTC_8a77d.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_28955.dir\Debug\cmTC_28955.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_8a77d.dir\Debug\cmTC_8a77d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
   Using triplet "x86-windows" from "C:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28955.dir\Debug\\" /Fd"cmTC_28955.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.c
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a77d.dir\Debug\\" /Fd"cmTC_8a77d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.c
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26431 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28955.dir\Debug\\" /Fd"cmTC_28955.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.c
+  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a77d.dir\Debug\\" /Fd"cmTC_8a77d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.c
   feature_tests.c
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_28955.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_28955.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_28955.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_28955.dir\Debug\feature_tests.obj
-  cmTC_28955.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_28955.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_8a77d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_8a77d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_8a77d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8a77d.dir\Debug\feature_tests.obj
+  cmTC_8a77d.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_8a77d.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_28955.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_28955.dir\Debug\cmTC_28955.tlog\cmTC_28955.write.1u.tlog" "cmTC_28955.dir\Debug\vcpkg.applocal.log"
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_8a77d.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_8a77d.dir\Debug\cmTC_8a77d.tlog\cmTC_8a77d.write.1u.tlog" "cmTC_8a77d.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_28955.dir\Debug\cmTC_28955.tlog\unsuccessfulbuild".
-  Touching "cmTC_28955.dir\Debug\cmTC_28955.tlog\cmTC_28955.lastbuildstate".
-Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_28955.vcxproj" (default targets).
+  Deleting file "cmTC_8a77d.dir\Debug\cmTC_8a77d.tlog\unsuccessfulbuild".
+  Touching "cmTC_8a77d.dir\Debug\cmTC_8a77d.tlog\cmTC_8a77d.lastbuildstate".
+Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_8a77d.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.34
+Time Elapsed 00:00:05.86
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -230,85 +230,85 @@ Time Elapsed 00:00:02.34
 Determining if the CXX compiler works passed with the following output:
 Change Dir: E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_19dc2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5571a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:28 PM.
-Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_19dc2.vcxproj" on node 1 (default targets).
+Build started 9/7/2018 2:25:53 PM.
+Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_5571a.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_19dc2.dir\Debug\".
+  Creating directory "cmTC_5571a.dir\Debug\".
   Creating directory "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_19dc2.dir\Debug\cmTC_19dc2.tlog\".
+  Creating directory "cmTC_5571a.dir\Debug\cmTC_5571a.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_19dc2.dir\Debug\cmTC_19dc2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_5571a.dir\Debug\cmTC_5571a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
   Using triplet "x86-windows" from "C:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_19dc2.dir\Debug\\" /Fd"cmTC_19dc2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5571a.dir\Debug\\" /Fd"cmTC_5571a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26431 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_19dc2.dir\Debug\\" /Fd"cmTC_19dc2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5571a.dir\Debug\\" /Fd"cmTC_5571a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   testCXXCompiler.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_19dc2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_19dc2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_19dc2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_19dc2.dir\Debug\testCXXCompiler.obj
-  cmTC_19dc2.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_19dc2.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_5571a.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_5571a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_5571a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5571a.dir\Debug\testCXXCompiler.obj
+  cmTC_5571a.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_5571a.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_19dc2.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_19dc2.dir\Debug\cmTC_19dc2.tlog\cmTC_19dc2.write.1u.tlog" "cmTC_19dc2.dir\Debug\vcpkg.applocal.log"
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_5571a.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_5571a.dir\Debug\cmTC_5571a.tlog\cmTC_5571a.write.1u.tlog" "cmTC_5571a.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_19dc2.dir\Debug\cmTC_19dc2.tlog\unsuccessfulbuild".
-  Touching "cmTC_19dc2.dir\Debug\cmTC_19dc2.tlog\cmTC_19dc2.lastbuildstate".
-Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_19dc2.vcxproj" (default targets).
+  Deleting file "cmTC_5571a.dir\Debug\cmTC_5571a.tlog\unsuccessfulbuild".
+  Touching "cmTC_5571a.dir\Debug\cmTC_5571a.tlog\cmTC_5571a.lastbuildstate".
+Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_5571a.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.29
+Time Elapsed 00:00:05.89
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_311a6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bb100.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:31 PM.
-Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_311a6.vcxproj" on node 1 (default targets).
+Build started 9/7/2018 2:25:59 PM.
+Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_bb100.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_311a6.dir\Debug\".
+  Creating directory "cmTC_bb100.dir\Debug\".
   Creating directory "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_311a6.dir\Debug\cmTC_311a6.tlog\".
+  Creating directory "cmTC_bb100.dir\Debug\cmTC_bb100.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_311a6.dir\Debug\cmTC_311a6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_bb100.dir\Debug\cmTC_bb100.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
   Using triplet "x86-windows" from "C:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_311a6.dir\Debug\\" /Fd"cmTC_311a6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bb100.dir\Debug\\" /Fd"cmTC_bb100.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26431 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_311a6.dir\Debug\\" /Fd"cmTC_311a6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bb100.dir\Debug\\" /Fd"cmTC_bb100.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
   CMakeCXXCompilerABI.cpp
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_311a6.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_311a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_311a6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_311a6.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_311a6.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_311a6.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_bb100.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_bb100.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_bb100.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bb100.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_bb100.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_bb100.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_311a6.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_311a6.dir\Debug\cmTC_311a6.tlog\cmTC_311a6.write.1u.tlog" "cmTC_311a6.dir\Debug\vcpkg.applocal.log"
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_bb100.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_bb100.dir\Debug\cmTC_bb100.tlog\cmTC_bb100.write.1u.tlog" "cmTC_bb100.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_311a6.dir\Debug\cmTC_311a6.tlog\unsuccessfulbuild".
-  Touching "cmTC_311a6.dir\Debug\cmTC_311a6.tlog\cmTC_311a6.lastbuildstate".
-Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_311a6.vcxproj" (default targets).
+  Deleting file "cmTC_bb100.dir\Debug\cmTC_bb100.tlog\unsuccessfulbuild".
+  Touching "cmTC_bb100.dir\Debug\cmTC_bb100.tlog\cmTC_bb100.lastbuildstate".
+Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_bb100.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.33
+Time Elapsed 00:00:06.22
 
 
 
@@ -316,43 +316,43 @@ Time Elapsed 00:00:02.33
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_027e5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b8068.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine version 15.7.179.6572 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/6/2018 7:23:34 PM.
-Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_027e5.vcxproj" on node 1 (default targets).
+Build started 9/7/2018 2:26:07 PM.
+Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_b8068.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_027e5.dir\Debug\".
+  Creating directory "cmTC_b8068.dir\Debug\".
   Creating directory "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_027e5.dir\Debug\cmTC_027e5.tlog\".
+  Creating directory "cmTC_b8068.dir\Debug\cmTC_b8068.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_027e5.dir\Debug\cmTC_027e5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_b8068.dir\Debug\cmTC_b8068.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 VcpkgTripletSelection:
   Using triplet "x86-windows" from "C:\vcpkg\installed\x86-windows\"
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_027e5.dir\Debug\\" /Fd"cmTC_027e5.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b8068.dir\Debug\\" /Fd"cmTC_b8068.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26431 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_027e5.dir\Debug\\" /Fd"cmTC_027e5.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.cxx
+  cl /c /I"C:\vcpkg\installed\x86-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b8068.dir\Debug\\" /Fd"cmTC_b8068.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\feature_tests.cxx
   feature_tests.cxx
   
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_027e5.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_027e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_027e5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_027e5.dir\Debug\feature_tests.obj
-  cmTC_027e5.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_027e5.exe
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_b8068.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8068.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Backup/SelfDrivingNanoDegree/Term2/15_Kidnapped_Vehicle_Project/MySolution/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8068.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b8068.dir\Debug\feature_tests.obj
+  cmTC_b8068.vcxproj -> E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_b8068.exe
 AppLocalFromInstalled:
-  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_027e5.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_027e5.dir\Debug\cmTC_027e5.tlog\cmTC_027e5.write.1u.tlog" "cmTC_027e5.dir\Debug\vcpkg.applocal.log"
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\Debug\cmTC_b8068.exe" "C:\vcpkg\installed\x86-windows\debug\bin" "cmTC_b8068.dir\Debug\cmTC_b8068.tlog\cmTC_b8068.write.1u.tlog" "cmTC_b8068.dir\Debug\vcpkg.applocal.log"
 FinalizeBuildStatus:
-  Deleting file "cmTC_027e5.dir\Debug\cmTC_027e5.tlog\unsuccessfulbuild".
-  Touching "cmTC_027e5.dir\Debug\cmTC_027e5.tlog\cmTC_027e5.lastbuildstate".
-Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_027e5.vcxproj" (default targets).
+  Deleting file "cmTC_b8068.dir\Debug\cmTC_b8068.tlog\unsuccessfulbuild".
+  Touching "cmTC_b8068.dir\Debug\cmTC_b8068.tlog\cmTC_b8068.lastbuildstate".
+Done Building Project "E:\Backup\SelfDrivingNanoDegree\Term2\15_Kidnapped_Vehicle_Project\MySolution\build\CMakeFiles\CMakeTmp\cmTC_b8068.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.36
+Time Elapsed 00:00:05.87
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
