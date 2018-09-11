@@ -14,15 +14,6 @@ UKF: Unscented Kalman Filter.
 
 [//]: # (Image Referensers)
 
-[LRImg]: ./images/Output/L_R_DS1.png
-[LR2Img]: ./images/Output/L_R_DS2.png
-[LImg]: ./images/Output/L_DS1.png
-[L2Img]: ./images/Output/L_DS2.png
-[RImg]: ./images/Output/R_DS1.png
-[R2Img]: ./images/Output/R_DS2.png
-
-[NISImg]: ./Tuning/03_L0.3_P0.4/Figure_1.png
-
 ---
 
 ## Objective
@@ -76,3 +67,33 @@ I had to implement the following parts:
 
 ---
 
+### Results
+
+Unlike previous projects succesful project submission is automatically done in the Udacity simulator.
+
+However once the filter was succesful I tried searching different particle count numbers to find the optimum particle count results found were:
+
+| Index | Part Cnt | X Error | Y Error | Yaw Error | Time  |
+|-------|----------|---------|---------|-----------|-------|
+|   1   |     1    |  0.578  |  1.526  |  0.035    | 02.46 |
+|   2   |     2    |  0.394  |  2.268  |  0.063    | 02.66 |
+|   3   |     3    |  0.273  |  0.264  |  0.01     | 49.34 |
+|   4   |     5    |  0.205  |  0.195  |  0.007    | 51.06 |
+|   5   |    10    |  0.159  |  0.151  |  0.005    | 52.36 |
+|   6   |    15    |  0.139  |  0.133  |  0.004    | 52.74 |
+|   7   |    20    |  0.136  |  0.125  |  0.004    | 52.58 |
+|   8   |    25    |  0.13   |  0.122  |  0.004    | 49.56 |
+|   9   |    50    |  0.122  |  0.112  |  0.004    | 54.94 |
+|  10   |    75    |  0.118  |  0.111  |  0.004    | 54.98 |
+|  11   |   100    |  0.117  |  0.108  |  0.004    | 55.68 |
+|  12   |  1000    |  0.106  |  0.1    |  0.004    | NA    |
+
+The law of diminishing returns is very apparent in the particle filter, perhaps because of using the nearest neighbour we need to match each particle with each map landmark. I decided to go with a 10 particle count because it showed good accuracy within acceptable time.
+
+Please find the output video for checking.
+
+---
+
+### Conclusion
+
+I think I have reached quite a good understanding of the theory and application of the PF and how it works to achieve the goal of a high confidence in localizing objects.
