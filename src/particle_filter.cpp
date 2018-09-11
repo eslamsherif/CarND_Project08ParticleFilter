@@ -21,7 +21,7 @@ using namespace std;
 
 /* Local defines */
 /* Number of particles used in the particle filter */
-#define PARTICLE_NUM (100U)
+#define PARTICLE_NUM (10U)
 
 #define EPSI (0.001)
 
@@ -45,11 +45,18 @@ double get_gaussian_sample(double mean, double std)
 
 /* implementation code */
 
-void ParticleFilter::init(double x, double y, double theta, double std[])
+void ParticleFilter::init(double x, double y, double theta, double std[], int ParticleCnt)
 {
   if(false == is_initialized)
   {
-    num_particles = PARTICLE_NUM;
+    if(ParticleCnt == 0)
+    {
+      num_particles = PARTICLE_NUM;
+    }
+    else
+    {
+      num_particles = ParticleCnt;
+    }
 
     for(int i=0; i < num_particles; i++)
     {

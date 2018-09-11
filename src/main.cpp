@@ -6,6 +6,8 @@
 
 using namespace std;
 
+static int PCnt = 0;
+
 // for convenience
 using json = nlohmann::json;
 
@@ -25,7 +27,7 @@ std::string hasData(std::string s) {
   return "";
 }
 
-int main()
+int main(int argc, char *argv[])
 {
   uWS::Hub h;
 
@@ -35,6 +37,11 @@ int main()
 
   double sigma_pos [3] = {0.3, 0.3, 0.01}; // GPS measurement uncertainty [x [m], y [m], theta [rad]]
   double sigma_landmark [2] = {0.3, 0.3}; // Landmark measurement uncertainty [x [m], y [m]]
+
+  if(argc == 2)
+  {
+    PCnt = atoi(argv[1]);
+  }
 
   // Read map data
   Map map;
@@ -72,7 +79,7 @@ int main()
 			double sense_y = std::stod(j[1]["sense_y"].get<std::string>());
 			double sense_theta = std::stod(j[1]["sense_theta"].get<std::string>());
 
-			pf.init(sense_x, sense_y, sense_theta, sigma_pos);
+			pf.init(sense_x, sense_y, sense_theta, sigma_pos, PCnt);
 		  }
 		  else {
 			// Predict the vehicle's next state from previous (noiseless control) data.
